@@ -7,7 +7,7 @@ The steps taken during the port were:
   - hard coded `set journal_name = energies` until options are available
   - removed `pdftex` option
   - switch between `oneauthor` and `moreauthors` based on `doc.authors` length
-- added `curvenote.def` in the block as suggested by comments
+- added `[-IMPORTS-]` in the block as suggested by comments
 - added fields for
   - Title
   - Authors
