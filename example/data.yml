@@ -28,7 +28,6 @@ doc:
     - keyword1
     - keyword2
     - keyword3
-oxalink: https://curvenote.com/@curvenote
 tagged:
   abstract: >
     Phase is a useful underlying property of the analytic trace model of seismic data that can be used as both an interpretation aid and a means to calibrate and check interpretations on a given seismic dataset. We introduce the analytical trace model and demonstrate some of its usages. We provide working code in python for computation of the Hilbert Transform using a robust FFT-based method and explore 2 use cases for such computed quantities. Jupyter notebooks used for computation and generation of the figures are included in this project.
@@ -59,10 +58,10 @@ tagged:
 options:
   chicago: true
   keywords: true
-  entry_link: "http://encyclopedia.org/my/article/link"
-  dataset: "http://doi.org/qwerty123"
+  entry_link: 'http://encyclopedia.org/my/article/link'
+  dataset: 'http://doi.org/qwerty123'
   dataset_license: CC-BY-4.0
-  lsid: "http://lsid.org/qwerty123"
+  lsid: 'http://lsid.org/qwerty123'
   corresponding_author: true
   journal_name: acoustics
   manuscript_type: article
