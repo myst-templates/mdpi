@@ -185,7 +185,7 @@ $^{[- affiliation.index -]}$ \quad [-affiliation.value-]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Only for the journal Encyclopedia
-[# if journal_name == 'encyclopedia' #]
+[# if options.journal_name == 'encyclopedia' #]
 [# if parts.abstract #]\encyclopediadef{[-parts.abstract-]}[# endif #]
 [# if options.entry_link #]\entrylink{[-options.entry_link-]}[# endif #]
 [# endif #]
@@ -237,7 +237,7 @@ $^{[- affiliation.index -]}$ \quad [-affiliation.value-]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Only for journal Encyclopedia
-[# if journal_name == 'encyclopedia' #]
+[# if options.journal_name == 'encyclopedia' #]
 [# if options.entry_link #]\entrylink{[-options.entry_link-]}[# endif #]
 [# endif #]
 
