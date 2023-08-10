@@ -112,7 +112,7 @@
 % Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
 \address{
 [#- for affiliation in doc.affiliations -#]
-$^{[- affiliation.index -]}$ \quad [-affiliation.value-]
+$^{[- affiliation.index -]}$ \quad [-affiliation.value.name-]
 [#- if not loop.last #]\\[# endif #]
 [#- endfor -#]
 }
